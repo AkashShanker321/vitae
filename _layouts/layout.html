@@ -34,15 +34,15 @@
             <a href="">
                 {{  }}<br/>
                 {{  }}<br/>
-                {{ site.address.city }}<i class="fa fa-map-marker"></i><br>
-                {{ site.address.country }}<i class="fa fa-flag"></i><br>
+                <i class="fa fa-map-marker"></i>&nbsp{{ site.address.city }}<br>
+                <i class="fa fa-flag"></i>&nbsp{{ site.address.country }}<br>
             </a>
         </address>
         <p>
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
         <p>
-            <i class="fa fa-envelope"></i><a href="{{ site.email_full }}">{{ site.email }}</a><br/><br>
+            <i class="fa fa-envelope"></i>&nbsp<a href="{{ site.email_full }}">{{ site.email }}</a><br/><br>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> <br>
              <a href="https://linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a><br>
             <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
